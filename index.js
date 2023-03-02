@@ -1,12 +1,6 @@
-import * as express from "express";
-import { message } from "../index1";
-const app = express()
-const port = 3000
+// Variables
+// const = immutable (can not be changed)
+// let = mutable (can be changed)
+const x = "x"
+let y = "y"
 
-app.get('/', (req, res) => {
-  res.send(message)
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
